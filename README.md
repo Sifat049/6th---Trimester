@@ -1,6 +1,6 @@
 # 🎓 6th Trimester Academic Resources
 
-Welcome to the **4th Trimester Academic Resources** repository! This repository contains essential study materials, including **lecture notes, solved exercises, assignments, and exam resources** for the 4th trimester.
+Welcome to the **6th Trimester Academic Resources** repository! This repository contains essential study materials, including **lecture notes, solved exercises, assignments, and exam resources** for the 4th trimester.
 
 ## 📚 Subjects Covered
 - 🖥️ **Computer Science** (Data Structures, Algorithms)
@@ -60,7 +60,6 @@ Made with ❤️ by [Sifat049](https
 
 # 6th Trimester Academic Resources 🎓
 
-এই রিপোজিটরিতে তুমি ৬ষ্ঠ ট্রাইমেস্টারের জন্য প্রয়োজনীয় একাডেমিক রিসোর্স পাবে—যেমন: lecture notes, solved exercises, assignment, exam materials ইত্যাদি।
 
 ---
 ## Folder Structure
@@ -98,7 +97,7 @@ Made with ❤️ by [Sifat049](https
 
 ##  How to Use
 
-1. রিপো ক্লোন করো:
+1. 
    ```bash
    git clone https://github.com/Sifat049/6th---Trimester.git
    cd 6th---Trimester
