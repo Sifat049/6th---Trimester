@@ -63,16 +63,15 @@ Made with ❤️ by [Sifat049](https
 এই রিপোজিটরিতে তুমি ৬ষ্ঠ ট্রাইমেস্টারের জন্য প্রয়োজনীয় একাডেমিক রিসোর্স পাবে—যেমন: lecture notes, solved exercises, assignment, exam materials ইত্যাদি।
 
 ---
-
 ## Folder Structure
 
 - [Computer-Science](./Computer-Science/)
   - [Data-Structures](./Computer-Science/Data-Structures/)
-  - [Algorithms II](./Computer-Science/Algorithms II/)
+  - [Algorithms II](./Computer-Science/Algorithms%20II/)
 - [Engineering](./Engineering/)
   - [Electronics](./Engineering/Electronics/)
   - [Circuit-Analysis](./Engineering/Circuit-Analysis/)
-  - [Industrial optional management](./Engineering/Industrial optional management/)
+  - [Industrial optional management](./Engineering/Industrial%20optional%20management/)
 - [Assignments](./Assignments/)
 - [Notes](./Notes/)
 - [Past-Papers](./Past-Papers/)
