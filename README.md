@@ -69,7 +69,7 @@ Made with ❤️ by [Sifat049](https
   - [Data-Structures](./Computer-Science/Data-Structures/)
   - [Algorithms II](./Computer-Science/Algorithms%20II/)
 - [Engineering](./Engineering/)
-  - [Electronics](./Engineering/Electronics/)
+  - [Electronics](./Engineering/ELECTRONICS/)
   - [Circuit-Analysis](./Engineering/Circuit-Analysis/)
   - [Industrial optional management](./Engineering/Industrial%20optional%20management/)
 - [Assignments](./Assignments/)
