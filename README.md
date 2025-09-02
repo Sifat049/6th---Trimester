@@ -23,8 +23,9 @@ Welcome to the **4th Trimester Academic Resources** repository! This repository 
 │── Past-Papers/
 │── README.md
 ```
-
-## 📂 Important Links: 
+## 📂 Project Structure
+- [src/](src/) - Main source code  
+- [docs/](docs/) - Documentation files  ## 📂 Important Links: 
 |YOUTUBE:
 ## 🔽 How to Use
 1. **Clone the repository:**
