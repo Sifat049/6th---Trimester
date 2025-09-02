@@ -44,3 +44,62 @@ This repository is for **educational purposes only**. All materials are shared t
 
 ---  
 Made with ❤️ by [Sifat049](https
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 6th Trimester Academic Resources 🎓
+
+এই রিপোজিটরিতে তুমি ৬ষ্ঠ ট্রাইমেস্টারের জন্য প্রয়োজনীয় একাডেমিক রিসোর্স পাবে—যেমন: lecture notes, solved exercises, assignment, exam materials ইত্যাদি।
+
+---
+
+## Folder Structure
+
+- [Computer-Science](./Computer-Science/)
+  - [Data-Structures](./Computer-Science/Data-Structures/)
+  - [Algorithms II](./Computer-Science/Algorithms II/)
+- [Engineering](./Engineering/)
+  - [Electronics](./Engineering/Electronics/)
+  - [Circuit-Analysis](./Engineering/Circuit-Analysis/)
+  - [Industrial optional management](./Engineering/Industrial optional management/)
+- [Assignments](./Assignments/)
+- [Notes](./Notes/)
+- [Past-Papers](./Past-Papers/)
+- [README.md](./README.md)
+
+---
+
+## Table of Contents
+
+- [Subjects Covered](#subjects-covered)
+- [How to Use](#how-to-use)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
+
+---
+
+##  Subjects Covered
+
+-  Computer Science (Data Structures, Algorithms II)  
+-  Engineering Topics (Electronics, Circuit Analysis, Industrial Optional Management)  
+- Assignments, Lecture Notes & Past Exam Papers
+
+---
+
+##  How to Use
+
+1. রিপো ক্লোন করো:
+   ```bash
+   git clone https://github.com/Sifat049/6th---Trimester.git
+   cd 6th---Trimester
