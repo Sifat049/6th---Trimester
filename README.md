@@ -8,6 +8,7 @@ Welcome to the **6th Trimester Academic Resources** repository! This repository 
 - 📝 **Assignments & Solutions**
 - 📖 **Lecture Notes & Handouts**
 
+
 ## 📂 Folder Structure
 ```
 6th-Trimester/
