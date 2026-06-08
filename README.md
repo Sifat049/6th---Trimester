@@ -1,7 +1,4 @@
 
-
-
-
 # 🎓 6th Trimester Academic Resources
 
 Welcome to the **6th Trimester Academic Resources** repository! This repository contains essential study materials, including **lecture notes, solved exercises, assignments, and exam resources** for the 4th trimester.
