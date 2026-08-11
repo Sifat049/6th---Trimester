@@ -1,0 +1,97 @@
+#include <iostream>
+#include <climits>
+using namespace std;
+
+
+// Function to find maximum positive-only subarray
+// that crosses the midpoint
+int maxPositiveCrossingSum(int arr[], int l, int mid, int r) {
+
+    int leftSum = 0;
+    int sum = 0;
+
+    // Include positive elements on left of mid
+    for (int i = mid; i >= l; i--) {
+
+        // Stop if element is not positive
+        if (arr[i] <= 0)
+            break;
+
+        sum += arr[i];
+
+        if (sum > leftSum)
+            leftSum = sum;
+    }
+
+
+    int rightSum = 0;
+    sum = 0;
+
+    // Include positive elements on right of mid
+    for (int i = mid + 1; i <= r; i++) {
+
+        // Stop if element is not positive
+        if (arr[i] <= 0)
+            break;
+
+        sum += arr[i];
+
+        if (sum > rightSum)
+            rightSum = sum;
+    }
+
+
+    // Best positive crossing sum
+    return leftSum + rightSum;
+}
+
+
+// Main divide & conquer function
+int maxPositiveSubArray(int arr[], int l, int r) {
+
+    // Base case
+    if (l == r) {
+
+        if (arr[l] > 0)
+            return arr[l];
+        else
+            return 0;
+    }
+
+
+    int mid = (l + r) / 2;
+
+
+    // Case 1: Entirely in left half
+    int leftMax = maxPositiveSubArray(arr, l, mid);
+
+
+    // Case 2: Entirely in right half
+    int rightMax = maxPositiveSubArray(arr, mid + 1, r);
+
+
+    // Case 3: Crossing midpoint
+    int crossMax = maxPositiveCrossingSum(arr, l, mid, r);
+
+
+    // Return maximum of the three
+    return max(max(leftMax, rightMax), crossMax);
+}
+
+
+int main() {
+
+    int arr[] = {1, 2, -5, 3, 4, -2, 5};
+
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+
+    int result = maxPositiveSubArray(arr, 0, n - 1);
+
+
+    cout << "Maximum Positive Subarray Sum = "
+         << result << endl;
+
+
+    return 0;
+}
