@@ -1,0 +1,80 @@
+#include <iostream>
+#include <climits>
+using namespace std;
+
+// Find negative sum crossing mid
+int cross(int a[], int l, int m, int h) {
+
+    int ls = INT_MIN;
+    int s = 0;
+
+    // Left side
+    for (int i = m; i >= l; i--) {
+
+        if (a[i] >= 0)
+            break;
+
+        s += a[i];
+
+        if (s > ls)
+            ls = s;
+    }
+
+    int rs = INT_MIN;
+    s = 0;
+
+    // Right side
+    for (int i = m + 1; i <= h; i++) {
+
+        if (a[i] >= 0)
+            break;
+
+        s += a[i];
+
+        if (s > rs)
+            rs = s;
+    }
+
+    if (ls != INT_MIN && rs != INT_MIN)
+        return ls + rs;
+
+    return INT_MIN;
+}
+
+
+// Divide and Conquer
+int solve(int a[], int l, int h) {
+
+    // One element
+    if (l == h) {
+        if (a[l] < 0)
+            return a[l];
+
+        return INT_MIN;
+    }
+
+    int m = (l + h) / 2;
+
+    int x = solve(a, l, m);
+    int y = solve(a, m + 1, h);
+    int z = cross(a, l, m, h);
+
+    return max(max(x, y), z);
+}
+
+int main() {
+
+    int a[] = {1, 2, 5, -7, 2, 3};
+
+    int n = sizeof(a) / sizeof(a[0]);
+
+    int r = solve(a, 0, n - 1);
+
+    if (r == INT_MIN)
+        r = 0;
+
+    cout << "Maximum Negative Subarray Sum = "
+         << r << endl;
+
+    return 0;
+}
